@@ -1,2 +1,23 @@
-# SigmaAPI
-web api using dot net 10 and sql serve (entity framework), solid project without the use of AI. creating a scalable ecosystem using microsoft tools, with clean architecture. 
+# Sigma
+Projeto desenvolvido utilizando .net 10, seguindo os princípios da clean architecture.
+Solução é dividida em camadas, onde cada projeto possui uma responsabilidade específica dentro da aplicação. essa organização busca facilitar a manutenção, evolução, testabilidade e separação de responsabilidades do sistema.
+
+## Exemplo de Estrutura do Projeto
+```text
+Sigma
+│
+├── Sigma.Api
+│   ├── Controllers
+│   └── Properties
+│
+├── Sigma.Core
+│   ├── Entities
+│   └── Models
+│
+├── Sigma.Application
+│   ├── Commands
+│   └── Queries
+│
+└── Sigma.Infrastructure
+    ├── Repositories
+    └── Services
