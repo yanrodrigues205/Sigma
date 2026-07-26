@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7y1hpFX2s8g=",
+  "dgSpecHash": "uPiD1k2wj1o=",
   "success": true,
   "projectFilePath": "/home/yan/Área de trabalho/Sigma/Sigma.Infrastructure/Sigma.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/yan/.nuget/packages/microsoft.extensions.dependencyinjection/11.0.0-preview.6.26359.118/microsoft.extensions.dependencyinjection.11.0.0-preview.6.26359.118.nupkg.sha512",
+    "/home/yan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/11.0.0-preview.6.26359.118/microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.6.26359.118.nupkg.sha512"
+  ],
   "logs": []
 }
