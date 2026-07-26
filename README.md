@@ -25,3 +25,13 @@ Sigma
 └── Sigma.Infrastructure
     ├── Repositories
     └── Services
+```
+## Estrutura de comunicação de camadas
+
+```text
+ Sigma.Api -> Sigma.Application
+ Sigma.Api -> Sigma.Infrastructure
+
+ Sigma.Application -> Sigma.Core
+
+ Sigma.Infrastructure -> Sigma.Application
