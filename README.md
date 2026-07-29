@@ -15,22 +15,22 @@ Imagem apresentada acima fornecida pela publicação, que aliás, recomendo a le
 ## Exemplo de Estrutura do Projeto
 ```text
 Sigma
-│
-├── Sigma.Api
-│   ├── Controllers
-│   └── Properties
-│
-├── Sigma.Core
-│   ├── Entities
-│   └── Models
-│
-├── Sigma.Application
-│   ├── Commands
-│   └── Queries
-│
-└── Sigma.Infrastructure
-    ├── Repositories
-    └── Services
+
+  Sigma.Api
+    Controllers
+    Properties
+  
+  Sigma.Core
+    Entities
+    Models
+    
+  Sigma.Application
+    Commands
+    Queries
+    
+  Sigma.Infrastructure
+     Repositories
+     Services
 ```
 ## Estrutura de comunicação de camadas
 
